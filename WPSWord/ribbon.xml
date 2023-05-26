@@ -1,0 +1,16 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="wpsAddinTab" label="ChatGPT">
+				<group id="btnDemoGroup" label="group1">
+                    <!-- <input type="text" id="question" name="question"> -->
+                    <!-- <button id="btnShowMsg" label="ChatGPT" onAction="OnAction" getEnabled="OnGetEnabled" getVisible="OnGetVisible"  getImage="GetImage" visible="true" size="large"/> -->
+                    <button id="btnShowMsg" label="ChatGPT" onAction="OnAction" getEnabled="OnGetEnabled"  getImage="GetImage" getVisible="OnGetVisible" size="large"/>
+                    <button id="btnGPTAPI" label="ChatGPT-API" onAction="OnAction" getEnabled="OnGetEnabled"  getImage="GetImage" getVisible="OnGetVisible" size="large"/>
+                    <button id="btnNewBing" label="NewBing" onAction="OnAction" getEnabled="OnGetEnabled"  getImage="GetImage" getVisible="OnGetVisible" size="large"/>
+                    
+				</group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

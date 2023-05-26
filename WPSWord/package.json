@@ -1,0 +1,9 @@
+{
+	"name": "wordcomjs",
+	"addonType": "wps",
+	"version": "1.0.0",
+	"description": "wps的ChatGPT加载项",
+	"devDependencies": {
+		"wps-jsapi": "latest"
+	}
+}
